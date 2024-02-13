@@ -1,0 +1,32 @@
+body{
+    font-family:cursive;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 17px;
+    grid-row-gap: 0px;
+    padding: 200px;
+    }
+
+    .box{
+        border: 2px solid black;
+        text-align: center;
+        padding: 40px 15px;
+        border-radius: 10px;
+    }
+
+    .box h3{
+        margin: 0;
+    }
+
+    .box p{
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .box img{
+        width: 70px;
+    }
